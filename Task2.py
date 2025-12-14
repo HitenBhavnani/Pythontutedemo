@@ -1,7 +1,7 @@
-# task2
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
+#task2
+sum = 0
 
-full_name = first_name + last_name
+for i in range(1, 51):
+    sum = sum + i
 
-print("Hello", full_name + ' ' + "Welcome!")
+print(f" The sum of numbers from 1 to 50 is: ", sum)
